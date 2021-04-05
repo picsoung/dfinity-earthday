@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "dfinity_vue": {
-      "main": "src/dfinity_vue/main.mo",
+    "earthday": {
+      "main": "src/earthday/main.mo",
       "type": "motoko"
     },
-    "dfinity_vue_assets": {
+    "earthday_assets": {
       "dependencies": [
-        "dfinity_vue"
+        "earthday"
       ],
       "frontend": {
-        "entrypoint": "src/dfinity_vue_assets/public/index.js"
+        "entrypoint": "src/earthday_assets/public/index.js"
       },
       "source": [
-        "src/dfinity_vue_assets/assets",
-        "dist/dfinity_vue_assets/"
+        "src/earthday_assets/assets",
+        "dist/earthday_assets/"
       ],
       "type": "assets"
     }
@@ -23,7 +23,7 @@
       "packtool": ""
     }
   },
-  "dfx": "0.6.14",
+  "dfx": "0.6.26",
   "networks": {
     "ic": {
       "providers": [
