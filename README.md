@@ -5,11 +5,15 @@ Powered by decentralized internet!
 
 # Test locally
 
-clone repo
-`yarn install`
-`dfx start`
-`dfx deploy`
-Open `http://127.0.0.1:8000/?canisterId={canisterId}`
+1. clone repo
+
+2. `yarn install`
+
+3. `dfx start`
+
+4. `dfx deploy`
+
+5. Open `http://127.0.0.1:8000/?canisterId={canisterId}`
 
 # Stack
 Vue, thanks to [@nop33's boilerplate](https://github.com/nop33/dfinity-vue)
@@ -46,6 +50,6 @@ features.map((f) =>{
 ```
 
 # Improvement
-Seed app with data points
-Show data points on a map
-Search by distance (findByDistance in `main.mo`)
+- Seed app with data points
+- Show data points on a map
+- Search by distance (findByDistance in `main.mo`)
