@@ -16,8 +16,9 @@ Powered by decentralized internet!
 5. Open `http://127.0.0.1:8000/?canisterId={canisterId}`
 
 # Stack
-Vue, thanks to [@nop33's boilerplate](https://github.com/nop33/dfinity-vue)
-[buefy](https://buefy.org/) for UI framework
+- Vue, thanks to [@nop33's boilerplate](https://github.com/nop33/dfinity-vue)
+- [buefy](https://buefy.org/) for UI framework
+- [Dfinity](dfinity.org) Internet Computer
 
 # Data source
 Data extracted from: https://cleanup.earthday.org/
