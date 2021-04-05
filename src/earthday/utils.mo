@@ -2,7 +2,6 @@
 import Array "mo:base/Array";
 import Nat "mo:base/Nat";
 
-// Import the 'Room' type definition
 import Types "./types";
 
 module Utils {
@@ -11,7 +10,6 @@ module Utils {
   // type Person = Types.Person;
   // type LatLong = Types.LatLong;
 
-  // Add to-do item utility
   public func add(
     events : [Event],
     id: Text,
